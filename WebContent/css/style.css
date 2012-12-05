@@ -1,0 +1,254 @@
+﻿div {
+	margin:0 auto;
+}
+a {
+	font-family:"comic Sans MS", 微软雅黑;
+	font-size:15px;
+}
+
+
+#whole {
+	width:950px;
+	height:573px;
+	background-image:url('../images/index.png');	
+}
+
+
+.index-logo {
+	width:369px;
+	height:86px;
+	background-image:url('../images/index-logo.png');
+	position:relative;
+	top:150px;
+
+}
+.index-signin {
+	width:560px;
+	height:80px;
+	background-image:url('../images/index-singin.png');
+	background-repeat:no-repeat;
+	position:relative;
+	top:200px;
+}
+
+.signup-frame{
+	height:329px;
+	width:601px;
+	background-image:url('../images/signup-frame.png');
+	background-repeat:no-repeat;
+	position:relative;
+	top:120px;
+
+}
+
+
+.head {
+	height:59px;
+	width:950px;
+	background-image:url('../images/head.png');
+	background-repeat:no-repeat;
+}
+.menu{
+	width:430px;
+	margin:12px 0 0 -30px;
+	float:left;
+	}
+.menu ul{
+}
+.menu li{
+	list-style-type:none;
+     width:50px;
+     float:left;
+}
+.head-name{
+	float:right;
+	width:200px;
+	margin:27px 10px 0 0 ;
+}
+.triangle{
+	float:right;
+	margin:5px 0 0 5px;
+}
+
+.main{
+	width:950px;
+	overflow: hidden;
+	height: 100%;
+	background-image:url('../images/home-bg.png');
+}
+.project-main{
+	width:950px;
+	overflow: auto;
+	height: 100%;
+	background-image:url('../images/phome-bg.png');
+}
+
+.bottom{
+	background-image:url('../images/bottom.png');
+	width:950px;
+	height:18px;
+}
+
+.main-left{
+	margin:10px 0 0 5px;
+	width:250px;
+	height:800px;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	background-image:url('../images/main-left.png');
+	background-repeat:no-repeat;
+	text-align:center;
+}
+.announcement-left{
+	margin:10px 0 0 5px;
+	width:250px;
+	height:700px;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	background-image:url('../images/project-left.png');
+	background-repeat:no-repeat;
+	text-align:center;
+}
+.main-left ul{
+	float:left;
+	margin-left:-30px;
+	width:250px;
+	padding-left:30px;
+	margin-top:50px;
+	
+}
+.main-left ul li {
+	list-style-type:none;
+     width:65px;
+     float:left;
+     height:65px;
+	margin-left:10px;
+}
+
+
+.main-middle {
+	width:445px;
+	float:left;
+}
+.main-news {
+	height:170px;
+	background-image:url('../images/main-middle-news.png');
+	background-repeat:no-repeat;
+	margin-bottom:10px;
+}
+
+.news-avatar{
+	height:60px;
+	width:60px;
+	margin:19px 0 0 20px;
+	float:left;
+}
+
+.news-pname {
+	width:80px;
+	margin-left:10px;
+	margin-top:80px;
+	overflow:hidden;
+	height:20px;
+	text-align:center;
+	}
+.news-time {
+	width:200px;
+	margin-left:50px;
+	margin-top:15px;
+	overflow:hidden;
+
+}
+
+
+.news-content{
+	width:320px;
+	height:100px;
+	position:relative;
+	left: 42px; top: -130px;
+	overflow:hidden;
+}
+.news-content-words{
+	width:320px;height:100px; border:0px; background-color:white;
+}
+.main-right{
+	width:230px;
+	float:left;
+
+}
+
+
+.msg-input{
+	height:190px;
+	margin-left:2px;
+	background-image:url('../images/msg-input.png');
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+
+.msg-content{
+	background-image:url('../images/msg-content.png');
+	background-repeat:no-repeat;	
+	height:130px;
+	margin-bottom:10px;
+	margin-left:6px;
+}
+.msg-single {
+	height:95px;width:205px; margin:10px 0 0 5px; border:0px;background-color:white;
+}
+
+.project-left{
+	margin:10px 5px 0 4px;
+	width:250px;
+	height:700px;
+	float:left;
+	background-image:url('../images/project-left.png');
+	background-repeat:no-repeat;
+}
+.project-right{
+	width:686px;
+	float:right;
+}
+
+.project-info{
+	background-image:url('../images/project-info.png');
+	background-repeat:no-repeat;
+	height:222px;
+	margin-left:-5px;
+}
+
+
+.documentation{
+
+	background-image:url('../images/announcement.png');
+	background-repeat:no-repeat;
+	height:570px;
+}
+
+.announcement-input {
+	height:200px;
+	background-image:url('../images/announcement-input.png');
+	background-repeat:no-repeat;	
+
+}
+
+.announcement{
+	background-image:url('../images/announcement-content.png');
+	background-repeat:no-repeat;
+	height:160px;
+	overflow:hidder;
+}
+
+.share-content{
+	background-image:url('../images/share-content.png');
+	background-repeat:no-repeat;
+	height:140px;
+}
+
+.announcement-pinfo{
+	text-align:left;
+	height:140px;
+	margin:0px 0 0 10px;
+}

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="vo" size="814,716" id="hk.edu.uic.cosns.model.vo" metadata="uml2-1.0" initialized="true" scrolledY="580" tag="1000" key="32303037303533312D3130303020436F536E732F636F667468657737">
+  <children xsi:type="editmodel:ClassEditModel" name="Announcement" location="248,312" size="157,158" id="hk.edu.uic.cosns.model.vo/Announcement" runTimeClassModel="content,PID,Announcement(),announcerUID,date,announcementID">
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="PID" id="hk.edu.uic.cosns.model.vo/Announcement#PID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="announcementID" id="hk.edu.uic.cosns.model.vo/Announcement#announcementID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="announcerUID" id="hk.edu.uic.cosns.model.vo/Announcement#announcerUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="content" id="hk.edu.uic.cosns.model.vo/Announcement#content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="date" id="hk.edu.uic.cosns.model.vo/Announcement#date"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Announcement" id="hk.edu.uic.cosns.model.vo/Announcement#Announcement()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Documentation" location="251,50" size="155,176" id="hk.edu.uic.cosns.model.vo/Documentation" runTimeClassModel="publisherID,content,title,PID,Documentation(),docID,date">
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="PID" id="hk.edu.uic.cosns.model.vo/Documentation#PID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="content" id="hk.edu.uic.cosns.model.vo/Documentation#content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="date" id="hk.edu.uic.cosns.model.vo/Documentation#date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="docID" id="hk.edu.uic.cosns.model.vo/Documentation#docID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="publisherID" id="hk.edu.uic.cosns.model.vo/Documentation#publisherID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="title" id="hk.edu.uic.cosns.model.vo/Documentation#title"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Documentation" id="hk.edu.uic.cosns.model.vo/Documentation#Documentation()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MsgBoard" location="50,538" size="123,158" id="hk.edu.uic.cosns.model.vo/MsgBoard" runTimeClassModel="insertUID,content,MsgBoard(),MsgID,MBID,date">
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="MBID" id="hk.edu.uic.cosns.model.vo/MsgBoard#MBID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="MsgID" id="hk.edu.uic.cosns.model.vo/MsgBoard#MsgID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="content" id="hk.edu.uic.cosns.model.vo/MsgBoard#content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="date" id="hk.edu.uic.cosns.model.vo/MsgBoard#date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="insertUID" id="hk.edu.uic.cosns.model.vo/MsgBoard#insertUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:MethodEditModel" name="MsgBoard" id="hk.edu.uic.cosns.model.vo/MsgBoard#MsgBoard()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Project" location="50,50" size="151,230" id="hk.edu.uic.cosns.model.vo/Project" runTimeClassModel="favCount,PID,updateTime,description,MBID,creatorUID,PUrl,projectName,Project(),memberCount">
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,162">
+      <children xsi:type="editmodel:AttributeEditModel" name="MBID" id="hk.edu.uic.cosns.model.vo/Project#MBID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PID" id="hk.edu.uic.cosns.model.vo/Project#PID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PUrl" id="hk.edu.uic.cosns.model.vo/Project#PUrl"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="creatorUID" id="hk.edu.uic.cosns.model.vo/Project#creatorUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="description" id="hk.edu.uic.cosns.model.vo/Project#description"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="favCount" id="hk.edu.uic.cosns.model.vo/Project#favCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="memberCount" id="hk.edu.uic.cosns.model.vo/Project#memberCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="projectName" id="hk.edu.uic.cosns.model.vo/Project#projectName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="updateTime" id="hk.edu.uic.cosns.model.vo/Project#updateTime"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="67,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Project" id="hk.edu.uic.cosns.model.vo/Project#Project()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ReSharing" location="223,538" size="120,122" id="hk.edu.uic.cosns.model.vo/ReSharing" runTimeClassModel="SharingID,ReSharing(),PID,UID">
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="PID" id="hk.edu.uic.cosns.model.vo/ReSharing#PID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="SharingID" id="hk.edu.uic.cosns.model.vo/ReSharing#SharingID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID" id="hk.edu.uic.cosns.model.vo/ReSharing#UID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ReSharing" id="hk.edu.uic.cosns.model.vo/ReSharing#ReSharing()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Role" location="456,50" size="151,176" id="hk.edu.uic.cosns.model.vo/Role" runTimeClassModel="participateWay,Role(),PID,UID,isManager,date,roleID">
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="PID" id="hk.edu.uic.cosns.model.vo/Role#PID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID" id="hk.edu.uic.cosns.model.vo/Role#UID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="date" id="hk.edu.uic.cosns.model.vo/Role#date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isManager" id="hk.edu.uic.cosns.model.vo/Role#isManager"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="participateWay" id="hk.edu.uic.cosns.model.vo/Role#participateWay"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="roleID" id="hk.edu.uic.cosns.model.vo/Role#roleID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="54,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Role" id="hk.edu.uic.cosns.model.vo/Role#Role()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Sharing" location="640,312" size="129,176" id="hk.edu.uic.cosns.model.vo/Sharing" runTimeClassModel="content,SharingID,Sharing(),PID,SharerUID,date,sharingType">
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="PID" id="hk.edu.uic.cosns.model.vo/Sharing#PID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="SharerUID" id="hk.edu.uic.cosns.model.vo/Sharing#SharerUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="SharingID" id="hk.edu.uic.cosns.model.vo/Sharing#SharingID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="content" id="hk.edu.uic.cosns.model.vo/Sharing#content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="date" id="hk.edu.uic.cosns.model.vo/Sharing#date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sharingType" id="hk.edu.uic.cosns.model.vo/Sharing#sharingType"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="72,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Sharing" id="hk.edu.uic.cosns.model.vo/Sharing#Sharing()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Task" location="50,312" size="148,176" id="hk.edu.uic.cosns.model.vo/Task" runTimeClassModel="content,CreatorUID,PID,Task(),executorUID,TaskID,date">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="CreatorUID" id="hk.edu.uic.cosns.model.vo/Task#CreatorUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PID" id="hk.edu.uic.cosns.model.vo/Task#PID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="TaskID" id="hk.edu.uic.cosns.model.vo/Task#TaskID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="content" id="hk.edu.uic.cosns.model.vo/Task#content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="date" id="hk.edu.uic.cosns.model.vo/Task#date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="executorUID" id="hk.edu.uic.cosns.model.vo/Task#executorUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="54,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Task" id="hk.edu.uic.cosns.model.vo/Task#Task()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="User" location="455,312" size="135,176" id="hk.edu.uic.cosns.model.vo/User" runTimeClassModel="email,UID,avatarUrl,MBID,fullName,User(),passWord">
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="MBID" id="hk.edu.uic.cosns.model.vo/User#MBID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID" id="hk.edu.uic.cosns.model.vo/User#UID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="avatarUrl" id="hk.edu.uic.cosns.model.vo/User#avatarUrl"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="email" id="hk.edu.uic.cosns.model.vo/User#email"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fullName" id="hk.edu.uic.cosns.model.vo/User#fullName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="passWord" id="hk.edu.uic.cosns.model.vo/User#passWord"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="55,18">
+      <children xsi:type="editmodel:MethodEditModel" name="User" id="hk.edu.uic.cosns.model.vo/User#User()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UserRelation" location="393,538" size="139,104" id="hk.edu.uic.cosns.model.vo/UserRelation" runTimeClassModel="UID2,UID1,UserRelation()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="66,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="UID1" id="hk.edu.uic.cosns.model.vo/UserRelation#UID1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID2" id="hk.edu.uic.cosns.model.vo/UserRelation#UID2"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,18">
+      <children xsi:type="editmodel:MethodEditModel" name="UserRelation" id="hk.edu.uic.cosns.model.vo/UserRelation#UserRelation()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="News" location="644,41" size="150,176" id="hk.edu.uic.cosns.model.vo/News" runTimeClassModel="content,ProjectName,PID,News(),ID,Purl,date">
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="ID" id="hk.edu.uic.cosns.model.vo/News#ID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="PID" id="hk.edu.uic.cosns.model.vo/News#PID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ProjectName" id="hk.edu.uic.cosns.model.vo/News#ProjectName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="Purl" id="hk.edu.uic.cosns.model.vo/News#Purl"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="content" id="hk.edu.uic.cosns.model.vo/News#content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="date" id="hk.edu.uic.cosns.model.vo/News#date"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="60,18">
+      <children xsi:type="editmodel:MethodEditModel" name="News" id="hk.edu.uic.cosns.model.vo/News#News()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Message" location="585,535" size="137,140" id="hk.edu.uic.cosns.model.vo/Message" runTimeClassModel="content,Message(),Date,UID,userName">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="Date" id="hk.edu.uic.cosns.model.vo/Message#Date"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="UID" id="hk.edu.uic.cosns.model.vo/Message#UID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="content" id="hk.edu.uic.cosns.model.vo/Message#content"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userName" id="hk.edu.uic.cosns.model.vo/Message#userName"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Message" id="hk.edu.uic.cosns.model.vo/Message#Message()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
